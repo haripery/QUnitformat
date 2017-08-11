@@ -1,4 +1,4 @@
-# JavaScript Unit Test Infrastructure for VarVetter
+# JavaScript Unit Test Infrastructure
 
 ## Components required to Build JavaScript Test Suite
 1. PhantomJS - Headless Browser (To connect Qunit with CL)
