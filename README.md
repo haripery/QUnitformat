@@ -11,7 +11,7 @@
 PhantomJS
 > [Install PhantomJS](https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-macosx.zip)
 
-###Step 2:
+### Step 2:
 QUnit
 > Copy Qunit files the below website: 
 > [QUnit Format](https://github.com/haripery/QUnitformat)
