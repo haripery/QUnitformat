@@ -15,7 +15,8 @@ PhantomJS
 QUnit
 > Copy Qunit files the below website: 
 > [QUnit Format](https://github.com/haripery/QUnitformat)
-> Qunitformat has the following files
+
+Following are the files of QUnitFormat
   - qunit-git.js
   - qunit.css
   - qunit.html
@@ -29,4 +30,30 @@ Creating Test Suite
 
 ### Step 4:
 > Copy the Qunit folder to the respective application test folder
-> $ phantomjs run-qunit.js file://pwd/qunithtml
+
+Run the following command in shell
+```
+$ phantomjs run-qunit.js file://pwd/qunithtml
+```
+## Output
+```
+Hariprasaths-MacBook-Pro:QUnitformat hari$ phantomjs run-qunit.js qunit.html
+ -------------------------
+| UNIT TEST Suite for JS  |
+ -------------------------
+success
+TOTAL TEST AMOUNT: 2 
+
+NOW RUNNING:  Module 1.0:TEST FUNCTIONS
+NOW RUNNING:  Module 1.0:TEST FUNCTIONS > Module 1.1:Test SUB-FUNCTIONS
+Log:  true Test case 1 Passed !
+Log:  true Test case 2 Passed !
+Finished running:  Module 1.0:TEST FUNCTIONS > Module 1.1:Test SUB-FUNCTIONS Failed/total:  0 2
+Finished running:  Module 1.0:TEST FUNCTIONS Failed/total:  0 0
+SUMMARY:
+ Total assertions:  2  Failed:  0  Passed:  2  Runtime:  7
+[object HTMLParagraphElement]
+Test finished in 203ms.
+2 tests completed in 7 milliseconds, with 0 failed, 0 skipped, and 0 todo.
+2 assertions of 2 passed, 0 failed
+```
