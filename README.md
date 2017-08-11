@@ -33,7 +33,7 @@ Creating Test Suite
 
 Run the following command in shell
 ```
-$ phantomjs run-qunit.js file://pwd/qunithtml
+$ phantomjs run-qunit.js file://pwd/qunit.html
 ```
 ## Output
 ```
