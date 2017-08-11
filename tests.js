@@ -8,19 +8,23 @@ $(document).ready(function () {
 
 function runTests() {
 
-    QUnit.module( "Module 1.0:TEST FUNCTIONS.JS", function( hooks ) {
+    QUnit.module( "Module 1.0:TEST FUNCTIONS", function( hooks ) {
             hooks.beforeEach( function( assert ) {
             });
             hooks.afterEach( function( assert ) {
             });
 
-            QUnit.module( "Module 1.1:URL Function Validations", function( hooks ) {
+            QUnit.module( "Module 1.1:Test SUB-FUNCTIONS", function( hooks ) {
                hooks.beforeEach( function( assert ) {
                });
                hooks.afterEach( function( assert ) {
                });
 
-               QUnit.test( "Test case 1: URL function validations", function( assert ) {
+               QUnit.test( "Test case 1:", function( assert ) {
+                   assert.equal(true,true, "Test case 1 Passed !");
+            });
+               QUnit.test( "Test case 2:", function( assert ) {
+                   assert.equal(true,true, "Test case 2 Passed !");
             });
             });
          });
