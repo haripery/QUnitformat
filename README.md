@@ -22,8 +22,6 @@ Following are the files of QUnitFormat
   - qunit.html
   - run-qunit.js
   - tests.js
-  - sinon.js
-  - mockjax.js
 
 ## Run
 ### Step 3:
